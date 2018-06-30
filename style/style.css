@@ -1,0 +1,343 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main-header {
+    width: 100vw;
+}
+
+.main-menu {
+    background-color: rgba(52, 52, 52, 0.8);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.logo-text {
+    margin-left: 20px;
+}
+
+.logo-text a {
+    text-decoration: none;
+    font-weight: 700;
+    color: darkred;
+}
+
+.nav-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 60px;
+    position: relative;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin-top: 0;
+    display: none;
+    margin: 0;
+    padding: 10px 20px
+}
+
+.main-menu ul li {
+    margin: 0;
+    border: 1px dashed white;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px white;
+    -webkit-transition: .3s all linear;
+    transition: .3s all linear;
+}
+
+.main-menu ul li:hover {
+    background-color: lightgray;
+    border: 1px dashed black;
+    -webkit-transition: .3s all linear;
+    transition: .3s all linear;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.main-menu ul li a:hover {
+    color: black;
+}
+
+.close-menu {
+    display: none;
+}
+
+.close-menu,
+.open-menu {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: white;
+
+}
+
+.close-menu:hover,
+.open-menu:hover {
+    cursor: pointer;
+}
+
+.cover {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/wojtek-witkowski-275-unsplash.jpg);
+    background-size: cover;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.cover h2 {
+    width: 50%;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 2em;
+
+}
+
+main {
+    width: 100vw;
+}
+
+.title {
+    width: 80vw;
+    margin-left: 20px;
+    border: 1px dashed black;
+    border-radius: 10px;
+    padding: 5px 0 5px 10px;
+    margin-top: 0;
+}
+
+.content {
+    margin: 10px;
+    padding-left: 10px;
+    line-height: 1.3em;
+}
+
+.content a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.story {
+    background-color: #303030;
+    padding: 20px 0;
+    color: antiquewhite
+}
+
+.story .section-header .title {
+    border-color: antiquewhite;
+}
+
+.episodes {
+    background: -webkit-gradient(linear, left top, left bottom, from(#303030), color-stop(#30305E), to(#737272));
+    background: linear-gradient(#303030, #30305E, #737272);
+    padding: 20px 0;
+    color: antiquewhite;
+}
+
+.episodes .section-header .title {
+    border-color: antiquewhite;
+}
+
+.malek {
+    padding: 0 0 20px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#737272), to(#9C9A9A));
+    background: linear-gradient(#737272, #9C9A9A);
+}
+
+.slater {
+    padding: 20px 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#9c9a9a), to(#babdbf));
+    background: linear-gradient(#9c9a9a, #babdbf);
+}
+
+.series {
+    width: 50vw;
+    -webkit-box-shadow: 0 0 5px;
+    box-shadow: 0 0 5px;
+}
+
+.series1 {
+    margin: 40px 0;
+    border-radius: 5px 15px 10px 50px;
+    padding: 0 10px 5px;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg) translate(50px);
+    background-color: #B28D00;
+}
+
+.series2 {
+    margin: 40px 0;
+    border-radius: 15px 10px 60px 5px;
+    padding: 0 10px;
+    -webkit-transform: rotate(15deg) translate(100px, -15px);
+    transform: rotate(15deg) translate(100px, -15px);
+    background-color: #B28D55;
+}
+
+.series3 {
+    margin: 40px 0 80px 0;
+    border-radius: 50px;
+    padding: 0 10px 5px;
+    -webkit-transform: translate(40%, 20px);
+    transform: translate(40%, 20px);
+    background-color: #b28d77;
+}
+
+h3.sub-title {
+    text-align: center;
+}
+
+.content-box img {
+    width: 100vw
+}
+
+footer {
+    width: 100vw;
+    height: 50px;
+    background-color: #343434;
+}
+
+footer p {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+@media (min-width: 768px) {
+
+    .main-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .close-menu,
+    .open-menu {
+        display: none;
+    }
+
+    .main-menu ul {
+        display: block;
+        padding: 0 20px 0 0;
+    }
+    .main-menu ul li {
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 0px;
+    }
+
+    .main-menu ul li a {
+        padding: 10px;
+        margin: 0 0 0 0;
+    }
+
+    .section-header {
+        padding: 50px 0;
+    }
+    .title {
+        margin: 0 auto;
+        width: 30vw;
+        text-align: center;
+        font-size: 1.7em;
+    }
+
+    .content-box img {
+        width: 40%;
+        margin: 20px;
+    }
+
+    .slater .content-box img {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        height: 50%;
+    }
+    .content-box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+    }
+    .episodes .content-box {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        margin-right: 20px;
+        padding: 20px;
+        line-height: 1.5em;
+    }
+
+    .series {
+        width: 20vw;
+    }
+    .series1 {
+        -webkit-transform: rotate(-10deg) translate(150px);
+        transform: rotate(-10deg) translate(150px);
+    }
+
+    .series2 {
+        -webkit-transform: rotate(10deg) translate(25px);
+        transform: rotate(10deg) translate(25px);
+    }
+}

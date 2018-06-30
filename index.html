@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Robot</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style/css/fontello.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+
+<body>
+
+    <header class="main-header">
+        <nav class="main-menu">
+            <div class="nav-bar">
+                <div class="logo-text">
+                    <h1><a onclick="toTop(); return false;" href="#">Mr. Robot</a></h1>
+                </div>
+                <div class="close-menu"><i class="icon-cancel"></i></div>
+                <div class="open-menu"><i class="icon-menu"></i></div>
+            </div>
+            <ul>
+                <li><a onclick="initScroll('story-id'); return false;" href="#">Fabuła</a></li>
+                <li><a onclick="initScroll('episodes-id'); return false;" href="#">Odcinki</a></li>
+                <li><a onclick="initScroll('malek-id'); return false;" href="#">Malek</a></li>
+                <li><a onclick="initScroll('slater-id'); return false;" href="#">Slater</a></li>
+            </ul>
+        </nav>
+        <div class="cover" id="start">
+            <h2>Demokracja została zhakowana</h2>
+        </div>
+    </header>
+    <main>
+        <section class="story" id="story-id">
+            <header class="section-header">
+                <h2 class="title">Fabuła</h2>
+            </header>
+            <div class="content-box">
+                <img src="img/ash-edmonds-510566-unsplash.jpg" alt="computer-laptop">
+                <div class="text">
+                    <p class="content">Mr. Robot to amerykański serial telewizyjny, którego twórcą jest Sam Esmail, a który wyprodukowany zostałe przez Universal Cable Productions oraz Anonymous Content. Główny bohater, Elliot Alderson jest niedostosowanym społecznie informatykiem, który specjalizuje się w cyberbezpieczeństwie. Pewnego dnia spotyka tajemniczego anarchistę i hakera, tytułowego Mr. Robota. Nie wiadomo, kim jest ani skąd się wziął, ale przyświeca mu jeden cel - chce zniszczyć korporacyjną Amerykę. I z pomocą Elliota jest w stanie tego dokonać. Od tej chwili rozpoczyna się niebezpieczna gra, w której stawką będzie nie tylko życie bohaterów, ale również przyszłość świata, który znamy. Celem pierwszego ataku hakerów staje się bowiem potężna korporacja E Corp, która nie cofnie się przed niczym, aby bronić swoich interesów.</p>
+                    <p class="content">Czytaj więcej o serialu na stronie Wikipedii [<a href="https://pl.wikipedia.org/wiki/Mr._Robot" target="_blank">Czytaj więcej</a>]</p>
+                </div>
+            </div>
+        </section>
+        <section class="episodes" id="episodes-id">
+            <header class="section-header">
+                <h2 class="title">Odcinki</h2>
+            </header>
+            <div class="content-box">
+                <p class="content">Do tej pory powstały trzy sezony serialu. Pierwsza seria zadebiutowała na jesieni 2015 roku, druga, rok później. Ostatni, trzeci sezon skończył się w grudniu 2017 roku.</p>
+                <img src="img/markus-spiske-357131-unsplash.jpg" alt="kod programistyczny">
+                <div class="series series1">
+                    <h3 class="sub-title">Sezon 1</h3>
+                    <ol class="ordered-list">
+                        <li>Hello Friend</li>
+                        <li>Ones and Zeroes</li>
+                        <li>Debug</li>
+                        <li>Daemons</li>
+                        <li>Exploits</li>
+                        <li>Brave Traveler</li>
+                        <li>View Source</li>
+                        <li>Whiterose</li>
+                        <li>Mirroring</li>
+                        <li>Zero Day</li>
+                    </ol>
+                </div>
+                <img src="img/keagan-henman-435028-unsplash.jpg" alt="mężczyzna">
+                <div class="series series2">
+                    <h3 class="sub-title">Sezon 2</h3>
+                    <ol class="ordered-list">
+                        <li>Unmask cz. 1</li>
+                        <li>Unmask cz. 2</li>
+                        <li>Kernel Panic</li>
+                        <li>Init 1</li>
+                        <li>Logic Bomb</li>
+                        <li>Master Slave</li>
+                        <li>Handshake</li>
+                        <li>Successor</li>
+                        <li>Init 5</li>
+                        <li>Hidden Process</li>
+                        <li>Python cz. 1</li>
+                        <li>Python cz. 2</li>
+                    </ol>
+                </div>
+                <div class="series series3">
+                    <h3 class="sub-title">Sezon 3</h3>
+                    <ol class="ordered-list">
+                        <li>Power Saver Mode</li>
+                        <li>Undo</li>
+                        <li>Legacy</li>
+                        <li>Metadatapar</li>
+                        <li>Runtime Error</li>
+                        <li>Kill Process</li>
+                        <li>Fredric Tanya</li>
+                        <li>Don't Delete Me</li>
+                        <li>Stage 3</li>
+                        <li>Shutdown</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section class="cast malek" id="malek-id">
+            <header class="section-header">
+                <h2 class="title">Rami Malek</h2>
+            </header>
+            <div class="content-box">
+                <img src="img/Rami_Malek_in_Hollywood,_California.jpg" alt="Rami Malek">
+                <div class="text">
+                    <p class="content">Rami Said Malek, amerykański aktor pochodzenia egipskiego. Wystąpił w roli Elliota Aldersona w serialu Mr. Robot, za którą otrzymał nagrodę Critics' Choice i nagrodę Emmy (najlepszy aktor w serialu dramatycznym). W 2004 roku Malek zaczął swoją karierę aktorską z gościnnym udziałem w serialu telewizyjnym Gilmore Girls. W tym samym roku pojawił się w odcinku Medium i został obsadzony w wybitnej roli Kenny'ego, w serialu komediowym The War at Home. W 2006 zadebiutował w filmie fabularnym Noc w muzeum jako faraon Ahkmenrah. Wiosną 2007 roku wystąpił na scenie, jako Jamie, w przedstawieniu The Credeaux Caanvas w Teatrze Elephant w Los Angeles. W sierpniu 2010 Malek został obsadzony jako wampir w Egyptian Coven oraz Benjamin w ostatniej części sagi Zmierzch. Wkrótce pojawił się jako Josh, jeden z głównych bohaterów, w grze Until Dawn. Od 2015 roku gra główną rolę w, cieszącym się uznaniem przez krytyków, serialu Mr. Robot. Otrzymał nominację do nagrody Dorian, Satellite Award, Złotego Globu i Screen Actors Guild Award, a także zdobył nagrodę Critics Choice w kategorii Najlepszy Aktor w serialu dramatycznym oraz nagrodę Primetime Emmy dla najlepszego aktora pierwszoplanowego. W listopadzie 2016 ogłoszono, że Malek wystąpi jako Freddie Mercury w nadchodzącej biografii Queen Bohemian Rhapsody, która zostanie wydana 25 grudnia 2018 roku.</p>
+                    <p class="content">Czytaj więcej o aktorze na stronie Wikipedii [<a href="https://pl.wikipedia.org/wiki/Rami_Malek" target="_blank">Czytaj więcej</a>]</p>
+                </div>
+            </div>
+        </section>
+        <section class="cast slater" id="slater-id">
+            <header class="section-header">
+                <h2 class="title">Christian Slater</h2>
+            </header>
+            <div class="content-box">
+                <img src="img/Christian_Slater_at_the_64th_Berlin_International_Film_Festival,_February_2014.jpg" alt="Christian Slater">
+                <div class="text">
+                    <p class="content">Christian Michael Leonard Slater - zagrał w serialu rolę Mr. Robota. Urodzony 18 sierpnia 1969 r. w Nowym Jorku. Okazjonalnie bywa także producentem i reżyserem filmowym. Mając siedem lat pojawił się po raz pierwszy na szklanym ekranie w operze mydlanej ABC Tylko jedno życie (One Life to Live, 1976). W 1976 roku jego rodzice rozwiedli się. Ma przyrodniego brata Ryana (ur. 19 kwietnia 1983) z drugiego małżeństwa matki. Ukończył Dalton School, Professional Children’s School oraz szkołę średnią High School of Performing Arts w Nowym Jorkuu.</p>
+                    <p class="content">W 1980 roku zadebiutował na nowojorskiej scenie City Center w przedstawieniu Muzyk (The Music Man). Rok później zagrał w telewizyjnej adaptacji powieści Arthura Conana Doyle HBO Sherlock Holmes (1981) u boku Franka Langelli i Stephena Collinsa. W operze mydlanej ABC Ryan's Hope (1985) pojawił się jako D.J. LaSalle. Po udziale w debiutanckim filmie kinowym Legenda o Billie Jean (The Legend of Billie Jean, 1985), zwrócił na siebie uwagę przez krytyków i widzów rolą nowicjusza franciszkańskiego Adso z Melku w dramacie kryminalnym Imię róży (Der Name der Rose, 1986). W 1987 roku przeniósł się do Los Angeles. W dniu 29 grudnia 1989 roku, po pościgu policyjnym, został aresztowany w West Hollywood; został oskarżony za ucieczkę policji, prowadzenie samochodu pod wpływem alkoholu, napad z bronią i prowadzenie samochodu bez ważnego prawa jazdy. Karierę ekranowa kontynuował w filmach: Mistrz deskorolki (Gleaming the Cube, 1988), czarnej komedii Śmiertelne zauroczenie (Heathers, 1989) w roli nastoletniego zabójcy, Więcej Czadu (Pump Up the Volume, 1990) jako zbuntowany nastolatek, który zakłada własną radiostację w garażu. Za rolę Willa Scarletta w obrazie Robin Hood: Książę złodziei (Robin Hood: Prince of Thieves, 1991) i postać młodego kryminalisty w dramacie kryminalnym Gangsterzy (Mobsters, 1991) był nominowany do antynagrody Złotej Maliny jako najgorszy aktor drugoplanowy. W 1992 roku zadebiutował jako reżyser dziecięcego musicalu Śmiech epidemiczny (The Laughter Epidemic) dla Fundacji Pediatrycznej AIDS. Rola samotnika zafascynowanego światem kina i komiksów kierowanego duchem Elvisa Presleya w dramacie kryminalnym Prawdziwy romans (True Romance, 1993) przyniosła mu nominację do nagrody Saturna. W 1994 roku został aresztowany za wniesienie broni na pokład samolotu. W 1996 roku wyreżyserował film krótkometrażowy Muzeum miłości (Museum of Love) z Sandrą Bernhard. W 1997 roku został ponownie aresztowany, a w czasie zatrzymania ranił policjanta i wyrokiem sądu został skazany na 90 dni więzienia, z czego odsiedział dwa miesiące; w trakcie procesu przyznał się do zażywania heroiny i kokainy i został zmuszony do leczenia odwykowego. Powrócił na scenę Broadwayu w 1998 roku w sztuce Side Man jako narrator Clifford. Za postać Roberta Boyda w czarnej komedii Gorzej być nie może (Very Bad Things, 1998) otrzymał nagrodę Złotego Łupka. W filmie Ukryta prawda (The Contender, 2000) wcielił się w młodego senatora. W 2004 roku pojawił się na deskach londyńskiego West End w sztuce Lot nad kukułczym gniazdem (One Flew Over the Cuckoo’s Nest) jako Randle Patrick McMurphy. W 2005 roku wystąpił w dwóch spektaklach Tennessee Williamsa; Słodki ptak młodości (Sweet Bird of Youth) na West End jako żigolak i hollywoodzki aktorzyna Chance Wayne oraz Szklana menażeria (The Glass Menagerie) na Broadwayu w roli narratora Toma. Laureat Złotego Globu w kategorii aktor drugoplanowy w serialu, za tytułową rolę w Mr. Robot (2015).</p>
+                    <p class="content">Czytaj więcej o aktorze na stronie Wikipedii [<a href="https://pl.wikipedia.org/wiki/Christian_Slater" target="_blank">Czytaj więcej</a>]</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Mariusz Jarosz 2018</p>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/scroll.js"></script>
+
+</body>
+
+</html>
